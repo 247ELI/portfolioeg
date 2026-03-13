@@ -45,10 +45,10 @@ export default function Home() {
             Eliasaf Gonzalez
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 max-w-2xl">
-            Full-Stack Developer crafting digital experiences with Next.js and Tailwind CSS.
+            Full-Stack Developer 
           </p>
           <div className="mt-8 flex gap-4">
-             <Button color="gray" href="https://docs.google.com/document/d/1t9ra-w36fju0r4uEroUzRHMHh6MPJck_Um5rfkTRvVc/edit?usp=sharing" target="_blank">View Resume</Button>
+             <Button color="gray" href="https://docs.google.com/document/d/1t9ra-w36fju0r4uEroUzRHMHh6MPJck_Um5rfkTRvVc/edit?usp=sharing">View Resume</Button>
              <Button color="blue" href="#projects">See My Work</Button>
           </div>
         </section>
@@ -66,10 +66,10 @@ export default function Home() {
         <section id="skills" className="py-20 px-8 max-w-5xl mx-auto bg-white/5 rounded-3xl backdrop-blur-sm">
           <div className="flex items-center gap-2 mb-10 justify-center">
             <HiLightningBolt className="text-yellow-400 text-3xl" />
-            <h2 className="text-3xl font-bold text-center">Tech Stack</h2>
+            <h2 className="text-3xl font-bold text-center">Skills</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {['Next.js', 'React', 'TypeScript', 'PostMan', 'Tailwind CSS', 'HTML', 'JS', 'C#'].map((skill) => (
+            {['Next.js', 'React', 'TypeScript', 'Bootstrap', 'Tailwind CSS', 'HTML', 'JS', 'C#'].map((skill) => (
               <div key={skill} className="p-4 border border-gray-700 rounded-xl hover:bg-blue-600 transition-colors">
                 {skill}
               </div>
@@ -114,8 +114,8 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <h3 className="text-xl font-semibold">Socials</h3>
               <div className="flex gap-4">
-                <Button color="gray" href="https://www.linkedin.com/in/eliasaf-gonzalez-886262326/" target="_blank">LinkedIn</Button>
-                <Button color="gray" href="https://github.com/247ELI" target="_blank">GitHub</Button>
+                <Button color="gray" href="https://www.linkedin.com/in/eliasaf-gonzalez-886262326/" >LinkedIn</Button>
+                <Button color="gray" href="https://github.com/247ELI" >GitHub</Button>
               </div>
             </div>
           </div>
